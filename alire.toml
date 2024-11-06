@@ -1,0 +1,15 @@
+name = "mlengine"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Samuel Leonetti"]
+maintainers = ["Samuel Leonetti <samleo312@gmail.com>"]
+maintainers-logins = ["samleo312"]
+executables = ["mlengine-main"]
+[[depends-on]]
+orka_tensors_cpu = "~1.0.0"
+
+[build-switches]
+"*".style_checks = "No"
+[[depends-on]]
+aunit = "^23.0.0"
